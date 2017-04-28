@@ -1,0 +1,20 @@
+logs
+project/project
+project/target
+target
+tmp
+.history
+dist
+/out
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
+.DS_Store
+
+# As recommended by https://intellij-support.jetbrains.com/hc/en-us/articles/206827587-How-to-manage-projects-under-Version-Control-Systems
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries
+.idea/
+*.iml

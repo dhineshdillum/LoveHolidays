@@ -36,9 +36,15 @@
       <version>1.2.5</version>
     </dependency>
     <dependency>
-      <groupId>net.thucydides</groupId>
-      <artifactId>thucydides-core</artifactId>
-      <version>0.9.269</version>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-api</artifactId>
+      <version>2.53.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-chrome-driver</artifactId>
+      <version>2.53.1</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

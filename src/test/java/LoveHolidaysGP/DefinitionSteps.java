@@ -27,7 +27,6 @@ public class DefinitionSteps{
 
     @Given("^that a user goes to MMB page$")
     public void that_a_user_goes_to_MMB_page() throws Throwable {
-        configureDrivers();
         mmbpage = lhHomepage.goToMMBPage();
     }
 

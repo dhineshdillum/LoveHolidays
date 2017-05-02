@@ -11,16 +11,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Created by dhinesh.dillum on 27/04/17.
  */
-public class DefinitionSteps{
+public class DefinitionSteps {
 
     LHHomepage lhHomepage;
     MMBPage mmbpage;
-    public static WebDriver driver;
+    public WebDriver driver;
 
     @Before
     public void configureDrivers() {
         driver = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver", "/drivers/mac/chromedriver 6");
+        System.setProperty("webdriver.chrome.driver",
+                System.getProperty("user.dir") + "/drivers/mac/chromedriver 6");
         lhHomepage = new LHHomepage(driver);
         lhHomepage.openTheLoveHolidayHomePage_PROD();
     }
